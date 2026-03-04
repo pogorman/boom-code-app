@@ -1,0 +1,52 @@
+{
+  "appId": "c55049c1-73e0-44d0-b4d3-c816839a02a9",
+  "appDisplayName": "The Boom Code App",
+  "description": "Boom Code App",
+  "environmentId": "0582014c-9a6d-e35b-8705-5168c385f413",
+  "buildPath": "dist",
+  "buildEntryPoint": "index.html",
+  "logoPath": "Default",
+  "localAppUrl": "http://localhost:3000/",
+  "region": "prod",
+  "connectionReferences": {},
+  "databaseReferences": {
+    "default.cds": {
+      "dataSources": {
+        "accounts": {
+          "entitySetName": "accounts",
+          "logicalName": "account"
+        },
+        "contacts": {
+          "entitySetName": "contacts",
+          "logicalName": "contact"
+        },
+        "actionitems": {
+          "entitySetName": "tdvsp_actionitems",
+          "logicalName": "tdvsp_actionitem"
+        },
+        "hvas": {
+          "entitySetName": "tdvsp_hvas",
+          "logicalName": "tdvsp_hva"
+        },
+        "ideas": {
+          "entitySetName": "tdvsp_ideas",
+          "logicalName": "tdvsp_idea"
+        },
+        "impacts": {
+          "entitySetName": "tdvsp_impacts",
+          "logicalName": "tdvsp_impact"
+        },
+        "meetingsummaries": {
+          "entitySetName": "tdvsp_meetingsummaries",
+          "logicalName": "tdvsp_meetingsummary"
+        },
+        "projects": {
+          "entitySetName": "tdvsp_projects",
+          "logicalName": "tdvsp_project"
+        }
+      },
+      "environmentVariableName": ""
+    }
+  },
+  "version": "1.0"
+}
